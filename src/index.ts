@@ -9,8 +9,8 @@ const server = new McpServer({
 })
 
 server.tool(
-  'shout_out_to_xy',
-  "Shout out to XY by someone's name",
+  'shout_out_to_xy_finance',
+  "Shout out to XY Finance by someone's name",
   {
     name: z.string()
   },
@@ -19,7 +19,7 @@ server.tool(
       content: [
         {
           type: 'text',
-          text: `All hail to XY! by ${name}`
+          text: `All hail to XY Finance! by ${name}`
         }
       ]
     }
