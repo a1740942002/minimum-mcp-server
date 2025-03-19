@@ -1,7 +1,7 @@
 {
   "name": "@a1740942002/minimum-mcp-server",
   "module": "index.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "publishConfig": {
     "access": "public"
