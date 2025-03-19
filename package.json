@@ -3,12 +3,20 @@
   "module": "index.ts",
   "version": "1.0.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target node",
     "prepublishOnly": "bun run build"
   },
-  "publishConfig": {
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1740942002/minimum-mcp-server.git"
+  },
+  "homepage": "https://github.com/a1740942002/minimum-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/a1740942002/minimum-mcp-server/issues"
   },
   "bin": {
     "minimum-mcp-server": "./dist/index.js"
