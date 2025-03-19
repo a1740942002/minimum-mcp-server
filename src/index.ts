@@ -4,8 +4,8 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod'
 
 const server = new McpServer({
-  name: 'XY Service',
-  version: '1.0.0'
+  name: 'xy-finance-mcp-server',
+  version: '1.0.2'
 })
 
 server.tool(
