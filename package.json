@@ -1,9 +1,14 @@
 {
   "name": "@a1740942002/minimum-mcp-server",
   "module": "index.ts",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./dist --target node"
+    "build": "bun build ./src/index.ts --outdir ./dist --target node",
+    "prepublishOnly": "bun run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bin": {
     "minimum-mcp-server": "./dist/index.js"
